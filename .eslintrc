@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "func-names": "off",
+        "class-methods-use-this": "off",
+        "lines-between-class-members":"off",
+        "import/no-extraneous-dependencies":"off"
+    },
+    "globals": {
+        "browser": true
+    }
+}
