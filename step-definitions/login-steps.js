@@ -5,6 +5,10 @@ Given('I visit the login page', () => {
   loginPage.open();
 });
 
+Given('I sign in as user {string}', (user) => {
+  loginPage.signin(user);
+});
+
 When(/^on the login page I enter the (username|password) "([^"]*)"$/, (field, value) => {
   loginPage[field].waitForDisplayed();
   loginPage[field].setValue(value);

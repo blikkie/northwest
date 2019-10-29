@@ -21,6 +21,7 @@
     "wdio-chromedriver-service": "^5.0.2"
   },
   "dependencies": {
-    "allure-commandline": "^2.13.0"
+    "allure-commandline": "^2.13.0",
+    "winston": "^3.2.1"
   }
 }

@@ -1,4 +1,4 @@
-const config = require('../../config/config');
+const config = require('../config/config');
 
 class LoginPage {
   get username() { return browser.$('input#user-name'); }
