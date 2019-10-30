@@ -1,5 +1,3 @@
-const config = require('../config/config');
-
 class LoginPage {
   get username() { return browser.$('input#user-name'); }
   get password() { return browser.$('input#password'); }
@@ -7,14 +5,6 @@ class LoginPage {
 
   open() {
     browser.url('/');
-  }
-
-  signin(user) {
-    this.open();
-    this.username.waitForDisplayed();
-    this.username.setValue(user);
-    this.password.setValue(config.testPassword);
-    this.login.click();
   }
 }
 
