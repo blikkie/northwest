@@ -9,4 +9,4 @@ Given that this is the first time I interacted with wdio v5, I had some good fun
 Clone this repo and perform `yarn install`. It is assumed you have an up to date version of nodejs and yarn installed.
 
 ## Running tests
-You can run test by running `yarn test`
+You can run tests by running `yarn test`
