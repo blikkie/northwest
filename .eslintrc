@@ -4,8 +4,7 @@
         "func-names": "off",
         "class-methods-use-this": "off",
         "lines-between-class-members":"off",
-        "no-plusplus":"off",
-        "max-classes-per-file": "off"
+        "no-plusplus":"off"
     },
     "globals": {
         "browser": true

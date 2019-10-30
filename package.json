@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "allure-commandline": "^2.13.0",
+    "camel-case": "^3.0.0",
     "cucumber": "^6.0.3",
     "winston": "^3.2.1"
   }
