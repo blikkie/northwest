@@ -6,7 +6,7 @@ Given that this is the first time I interacted with wdio v5, I had some good fun
 
 ## Installation instructions
 
-Clone this repo and perform `yarn install`. It is assumed you have an up to date version of nodejs and yarn installed.
+Clone this repo and perform `yarn install`. It is assumed you have an up to date version (v11 or newer) of nodejs and yarn installed. This suite was developed on node 12 and uses at least 1 node 11 specific call (`Array.flat()`)
 
 ## Running tests
 You can run tests by running `yarn test`
