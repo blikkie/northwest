@@ -1,10 +1,11 @@
 class ProductPage {
+  get shoppingCart() { return browser.$('a.shopping_cart_link'); }
   get inventoryList() { return browser.$('div.inventory_list'); }
+  get sortOrder() { return browser.$('select.product_sort_container'); }
   get items() { return browser.$$('div.inventory_item'); }
 
-  getItems() {
-    const text = browser.$$('div.inventory_item')[3].$('inventory_item_name').getText();
-    // console.log(text);
+  addItemToCart(itemName) {
+    browser.$(`div.inventory_item*=${itemName}`).$('button.btn_primary').click();
   }
 }
 
